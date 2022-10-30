@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212, 159, 167,0.4);
+    
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+
+   width: 80%;
+
+}
+.first{
+
+    background-color: hsl(31, 77%, 52%);
+    padding-left: 40px;
+    border-radius: 6px 0px 0px 6px;
+}
+.second{
+
+    background-color:hsl(184, 100%, 22%) ;
+    padding-left: 40px;
+}
+.third{
+
+    background-color: hsl(179, 100%, 13%);
+    padding-left: 40px;
+    border-radius: 0px 6px 6px 0px;
+
+}
+img{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+h1{
+    color:white;
+    padding-bottom: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+}
+button{
+    width: 125px;
+    height: 46px;
+    border-radius: 30px;
+    border-color: white;
+    margin-bottom: 1rem;
+    
+}
+a{
+    text-decoration: none;
+}
+.first p{
+
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-right: 40px;
+    margin-bottom: 5rem;
+}
+.second p{
+
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-right: 40px;
+    margin-bottom: 5rem;
+}
+.third p{
+
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    opacity: 0.5;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-right: 40px;
+    margin-bottom: 5rem;
+}
+
+.first a {
+    color: hsl(31, 77%, 52%); 
+    font-weight: bold;
+}
+.second a{
+
+    color:hsl(184, 100%, 22%) ; 
+    font-weight: bold;
+}
+.third a{
+    color: hsl(179, 100%, 13%);
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+}
+button:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+
+
+@media (max-width: 720px){
+   
+    .container{
+     flex-direction: column;
+     width: auto;
+     height: 100vh;
+    }
+
+   button{
+    margin-bottom: 1rem;
+   }
+   .first{   
+
+    border-radius: 6px 6px 0px 0px ;
+   }
+   
+   .second{
+ 
+
+    border-radius: 0px;
+   }
+   .third{
+  
+    border-radius: 0px 0px 6px 6px;
+
+   }
+   .first p{
+    margin-bottom: 3rem;
+   }
+   .second p{
+    margin-bottom: 3rem;
+   }
+   .third p{
+    margin-bottom: 3rem;
+   }
+
+  
+
+}
